@@ -2,7 +2,7 @@
   "name": "graphql-to-csv",
   "version": "0.0.0",
   "description": "Export GraqhQL Data to CSV",
-  "main": "index.js",
+  "main": "./index.js",
   "files": [
     "index.js"
   ],
