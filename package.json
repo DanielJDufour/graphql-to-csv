@@ -1,0 +1,36 @@
+{
+  "name": "graphql-to-csv",
+  "version": "0.0.0",
+  "description": "Export GraqhQL Data to CSV",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --print-width=160 --trailing-comma=none --write *.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DanielJDufour/graphql-to-csv.git"
+  },
+  "keywords": [
+    "csv",
+    "data",
+    "export",
+    "graphql"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/graphql-to-csv/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/graphql-to-csv#readme",
+  "dependencies": {
+    "@danieljdufour/json-to-csv": "^0.0.3",
+    "sendero": "^0.1.0"
+  },
+  "devDependencies": {
+    "flug": "^2.7.1"
+  }
+}
