@@ -98,7 +98,7 @@ console.log(results.csv);
     query: `query CollectionsQuery($params: CollectionsInput) { ...  }`,
 
     // sometimes your second and later requests are different than the first
-    query_subsequent: `query NextCollectionsQuery...`
+    query_subsequent: `query NextCollectionsQuery...`,
 
     start: "data.collections.items",
     url: "https://graphql.earthdata.nasa.gov/api"
