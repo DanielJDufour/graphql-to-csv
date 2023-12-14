@@ -81,7 +81,7 @@ async function generate({
     all_items = all_items.concat(response_items);
 
     if (!pagination) {
-      if (debug_level >= 2) console.log("[graphql-to-csv] [graphql-to-csv] no pagination set, so breaking after the first request");
+      if (debug_level >= 2) console.log("[graphql-to-csv] no pagination set, so breaking after the first request");
       break;
     }
 
